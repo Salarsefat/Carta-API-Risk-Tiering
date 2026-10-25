@@ -1,0 +1,1273 @@
+{
+ "n_requests": 20000,
+ "unique_paths": 7599,
+ "alert_rate_at_val_1pct_fpr_threshold": {
+  "carta": 0.622,
+  "prior": 0.24345
+ },
+ "alert_rate_prior_shipped_0.5": 0.99605,
+ "recalibrated": {
+  "0.05": {
+   "carta_alert_rate_eval_half": 0.0481,
+   "prior_alert_rate_eval_half": 0.05
+  },
+  "0.01": {
+   "carta_alert_rate_eval_half": 0.0104,
+   "prior_alert_rate_eval_half": 0.0089
+  },
+  "0.002": {
+   "carta_alert_rate_eval_half": 0.0014,
+   "prior_alert_rate_eval_half": 0.0
+  }
+ },
+ "signature_attacks": {
+  "n": 647,
+  "fraction": 0.03235,
+  "carta_alert_rate_on_them": 1.0,
+  "prior_alert_rate_on_them": 0.9319938176197836
+ },
+ "signature_precision_top50": {
+  "carta": 0.8,
+  "prior": 0.98
+ },
+ "signature_precision_top100": {
+  "carta": 0.83,
+  "prior": 0.83
+ },
+ "alert_rate_excluding_signature_attacks": {
+  "carta": 0.6093628894745001,
+  "prior": 0.22043094093938925
+ },
+ "top_carta": [
+  {
+   "rank": 1,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:4f32c71b04bee673f8cbfbf63e8f5393839b171a38fe03aaaf784028be225079"
+  },
+  {
+   "rank": 2,
+   "score": 0.9999990841654453,
+   "signature": "",
+   "request_sha256": "sha256:52f7ee1086f542239d82ac8b5ebd1de19c485bb06b5dca24ccf83f773688eeb6"
+  },
+  {
+   "rank": 3,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:123652d905fa2f121016627e2059a412d678d7caff7f373027dfd44ab3e41b04"
+  },
+  {
+   "rank": 4,
+   "score": 0.9999990841654453,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:e5fe15f276582cc52841bafb6db32c87fe3eee53753adaa37c118178178cb28a"
+  },
+  {
+   "rank": 5,
+   "score": 0.9999990841654453,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:0c92395f7030a8de98bc6e2bbdd4d36567cf16fa48afa0d98594870829c8ae75"
+  },
+  {
+   "rank": 6,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:5397f8880f5937321a4961497618b92b850c77857563bd78a288585233bd09a5"
+  },
+  {
+   "rank": 7,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:e20a25cd96722c2ede2b8f410e58bd999ebc50442fdb4eb0ef9cea163018c09c"
+  },
+  {
+   "rank": 8,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1ec5bf90de85d8a019295a8005cae4ff65815b899d565e69b2de0912caefd5b4"
+  },
+  {
+   "rank": 9,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:cad0679c58912fe30d8ec540daf2a6ae7da8c544c51c77258ac6002750aee070"
+  },
+  {
+   "rank": 10,
+   "score": 0.9999990841654453,
+   "signature": "",
+   "request_sha256": "sha256:7099de2a46eae174620b40ccb1ae022dbef2df87cea2bbbe40ca400d6f4285df"
+  },
+  {
+   "rank": 11,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b79fb53bca3b4d479b26c510bbd600dff70d0cd59dd3d33cf90f7ac5a202edbb"
+  },
+  {
+   "rank": 12,
+   "score": 0.9999990841654453,
+   "signature": "",
+   "request_sha256": "sha256:65bee2b18e091fe0b56189b23bb2e9fbdb168baadfd476490b9c9b1e10cfd9b6"
+  },
+  {
+   "rank": 13,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b2058ceca2a205a13d17038b90d84139e95c20e2b72e2e8647d6bfba0b376e24"
+  },
+  {
+   "rank": 14,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:415a5186a35095c0c5e2760f4da112f48fd3fc08d97f4e935fab927e23961c34"
+  },
+  {
+   "rank": 15,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c195a7c69b8ef4379e52842f6e6f5b3dde00042d61ab93d5d5e1840f7172e1a4"
+  },
+  {
+   "rank": 16,
+   "score": 0.9999990841654453,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:91336d8f1a4ebd08edeb42841ac5ba77fd2007e33cd500229d8abf6be7cd70d6"
+  },
+  {
+   "rank": 17,
+   "score": 0.9999990841654453,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:ff683f6f659be6c0286d9ee4340a9a7daac72c196c8daef06fb173d1e72f2984"
+  },
+  {
+   "rank": 18,
+   "score": 0.9999989470996199,
+   "signature": "",
+   "request_sha256": "sha256:d9f663b361df1699f5339783a834438a148da24da7be00e32502ddec40d1aa30"
+  },
+  {
+   "rank": 19,
+   "score": 0.9999989470996199,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:55c727e59d48356dd2a908a167c053629eef7f6f8350d8a81dba0d55219b675a"
+  },
+  {
+   "rank": 20,
+   "score": 0.9999989470996199,
+   "signature": "",
+   "request_sha256": "sha256:00dc3b02e2f21d6dbb2a65fb82d0d501756850ad1cf854d66a6c43dfde65ce47"
+  },
+  {
+   "rank": 21,
+   "score": 0.9999989470996199,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:0bd4c9ccb98527282f04e36a0c8972dbf3203525162ecbe390fd28b92d624647"
+  },
+  {
+   "rank": 22,
+   "score": 0.9999989470996199,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:271c3b602ecec7a7c1b340175c00acfe23afe94b7ad82b472fbb4fe88df3a3b4"
+  },
+  {
+   "rank": 23,
+   "score": 0.9999989470996199,
+   "signature": "",
+   "request_sha256": "sha256:c3c557758565f0586ff235fc7ad55b1c9b7fdee826182982e9cb693ecf523260"
+  },
+  {
+   "rank": 24,
+   "score": 0.9999988608421586,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:c0fbcf2d04c54e9b888b94670b156a05b54d262a7f65af7314c8c7dc96a85b81"
+  },
+  {
+   "rank": 25,
+   "score": 0.9999988608421586,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:027dbde7342b6f80340056c40f24c92be3fb719160c968c9c6b634c3de6a64f4"
+  },
+  {
+   "rank": 26,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:233c329c3b21389517e037598fa959d41e0d5ce0ba1a1f0323d45a68e4b24eff"
+  },
+  {
+   "rank": 27,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:3d387e421516c51a60d7f4d4fb1f2a6daca1fb358c0b7b69b4b64ecf6aa111d7"
+  },
+  {
+   "rank": 28,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:a91f9b9e2a130449f2ade8957ded34611cdcd25c169421fad4b77397cd1d3008"
+  },
+  {
+   "rank": 29,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:4d7e8f2f1f66c9ef49d009e07e9bfe1b835eb1d1cc487f0d027ffdb277c6024b"
+  },
+  {
+   "rank": 30,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:35b37951c2cc57cb75e5914820f6c9b6ae21c9423856c63e1468bb142c76dd76"
+  },
+  {
+   "rank": 31,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:788ce77ca943b452cb6c50762a8f8c43176d0b8ffc7240102c231ec3682c64b1"
+  },
+  {
+   "rank": 32,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:e08d591935bd34f40b9e912c9d2e69592307ab24542454afc3b0e71810c50fa4"
+  },
+  {
+   "rank": 33,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:0f802133bbfc33e59550a781da27eafa1eaecade1bc4b2a44e4c1957d46239f4"
+  },
+  {
+   "rank": 34,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:0f508ec3a1534702027642458170f06aa60b71b8fb9e655a74e08acf70d8d717"
+  },
+  {
+   "rank": 35,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:78351a7bafd2359ad08a310563127d53092056b04c528dbeb1ca1bb184fbdee1"
+  },
+  {
+   "rank": 36,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:71e56a11f2f74e2dd602adc804072a33ca495730c0e5a04994096f36af905377"
+  },
+  {
+   "rank": 37,
+   "score": 0.9999987166885558,
+   "signature": "traversal",
+   "request_sha256": "sha256:734c9d295575115ae108fdd057517c61355f8d810ed6d5816b1484f0c984fffb"
+  },
+  {
+   "rank": 38,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1455c57458f62972f827570b2db1249b180eaa622ae624cdff357f2a996cd010"
+  },
+  {
+   "rank": 39,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:75633310b4fa84a2dfd5b2f309a916be232763979755c86602adf52c2b31b81e"
+  },
+  {
+   "rank": 40,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:7538b63262d208ef4187e7845edfe21027ca4cf0518d89dd6db594a8b9092db5"
+  },
+  {
+   "rank": 41,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:0bb714ba49abc4ae37a19b58e6c4702b0f6a6cab74d31158e03b5b45edf28bea"
+  },
+  {
+   "rank": 42,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:d0b05b9f63b38f5ca17ee007d9989fe4f823a3c0e50ac07809216d8ee89febc3"
+  },
+  {
+   "rank": 43,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:9b1cc38e1bd65833610c3d7ae36047d8be8f9806ea9491674aaa9152869c8a45"
+  },
+  {
+   "rank": 44,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:6972cc20fea3a6769cebf9ebffc4a66ad0bf3fb86fba4f1d69e447acf48c5424"
+  },
+  {
+   "rank": 45,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b439b9630e883b03db6c11f93e00f87cd1414b1f9a455400c1e1e06ad6e42873"
+  },
+  {
+   "rank": 46,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:da3dd5a4081198f262c489a21b939dfba92258ec7903f145db4004c7247ab3e3"
+  },
+  {
+   "rank": 47,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:717f49d60e13665f97356bc69dab5342ea984e222bfdc211c482325cc14a40a3"
+  },
+  {
+   "rank": 48,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:9e5c5fc585fc9a682623074659ab70040e379ad0989c21fafad162bc975371eb"
+  },
+  {
+   "rank": 49,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:8ab92b88d8739c3e014c038187082e40ac7f094629bd9ecd0390d47b49b60f31"
+  },
+  {
+   "rank": 50,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:6c6db96f22e01c7161e0d0cda9ac4579aad181f389ffca8575c62d7313bbfbe7"
+  },
+  {
+   "rank": 51,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:5af35c30ddb27515de9dc0cb73ad95aff03cfbc38c51b909cda020a433d46abd"
+  },
+  {
+   "rank": 52,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:8d30064d1e446c418d29a6921e20c6f194370c0ec9f95f258af48de5076b9eaf"
+  },
+  {
+   "rank": 53,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:229b4d21897ce97bca7eac2bbed984064912397911dae4757cd34ac6788ed2b3"
+  },
+  {
+   "rank": 54,
+   "score": 0.9999987166885558,
+   "signature": "traversal",
+   "request_sha256": "sha256:445be7eed8a76f9df90d0d89c6910d97acdcc3ec545a06cd1fbfbd14fef554a8"
+  },
+  {
+   "rank": 55,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:290cfae9ee16d97c8e333b4c90af6f2beab9d3b139809ee650a524a206023387"
+  },
+  {
+   "rank": 56,
+   "score": 0.9999987166885558,
+   "signature": "traversal",
+   "request_sha256": "sha256:0b72033170c97ba1f31c8c839a06227caec2591a926b6845c59bc629c7edec73"
+  },
+  {
+   "rank": 57,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:211c5f4c5c0c2f1b66839dbbc6dc911242631d17b4c80c40ec27f6e2222b87e8"
+  },
+  {
+   "rank": 58,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:763b586434eebfac0c9a62e1b59a8132631f0a927c7248ed0faee8a74e25bc86"
+  },
+  {
+   "rank": 59,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:d589968cb8e7196d4efe34f578e23dfff6c4128e6097ea09d6698713f0e8dc3f"
+  },
+  {
+   "rank": 60,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:7bdd144b3d27df6d8f9b96da7b74e42fd10c3a14f5210953330ebc609209bc6b"
+  },
+  {
+   "rank": 61,
+   "score": 0.9999987166885558,
+   "signature": "traversal",
+   "request_sha256": "sha256:494258abe4bf1cf2cbb453b3e3ed724662f434e8a6344daa7d2b2d212058e599"
+  },
+  {
+   "rank": 62,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:d83749b01f1987344e0a534f74f74a5c9f72bb14b583d18c704a24bde28203e5"
+  },
+  {
+   "rank": 63,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1f5d95748d055d35d126c19a6511c0133c8ebd3203056a068ba7c2b9b4e3681a"
+  },
+  {
+   "rank": 64,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:8b24f3a35fb1a1aa403cf3e5148e51ba63bdda3e2d5a889bbc87644330e444fb"
+  },
+  {
+   "rank": 65,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:7b68d77b644756648052f757c6d9392271c5c3656ca65e29b3cfcf6b05032f0a"
+  },
+  {
+   "rank": 66,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:65fd1075f4e7e9209b32bd34cdc4ff00842e3710df3c4f32b0ec85edc9a906bd"
+  },
+  {
+   "rank": 67,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:0ee2345a3f2d14a70aa74f12b3eb30165ccd518010d4071570492ac5f398016b"
+  },
+  {
+   "rank": 68,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:f6765c1e0921de03d21a5ccc8fe605adee755afeeee40ee85d18d8a3ef3ad04a"
+  },
+  {
+   "rank": 69,
+   "score": 0.9999987166885558,
+   "signature": "traversal",
+   "request_sha256": "sha256:46ddb67688a8b4662561a33d8bf62b0f625714cfbfb94d0cfb76c24aa59b7d01"
+  },
+  {
+   "rank": 70,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:5766b3fd6156efa9017fa1bea9c41c18a1d64a9a00be6ae6db8acf9125ecfdf1"
+  },
+  {
+   "rank": 71,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c45d014261f5b3ef1a3b4dc232fa5f451782ebb19e3943723cdc888c7922bcbb"
+  },
+  {
+   "rank": 72,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:5ece45fad4001a3f4101e515d79038229b94f2710fb8b5e36cedb04324eb033e"
+  },
+  {
+   "rank": 73,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:81425b4b9158b3a6d96e6f4181d975d416b3c09dc5d95740521da83dadb0a022"
+  },
+  {
+   "rank": 74,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b81440086c33993ddd46c7a16c488d1222377c37fbc72c4b9d09c52db70dd7e9"
+  },
+  {
+   "rank": 75,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:ba1ba0030463560bd006e3a542c040744b2e1decd1a59b6aa9821732f356c965"
+  },
+  {
+   "rank": 76,
+   "score": 0.9999987166885558,
+   "signature": "",
+   "request_sha256": "sha256:16c7741de824f58f9ac46e254df0ec8594e114e9603c1794c50b53536cb0ba17"
+  },
+  {
+   "rank": 77,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:dfb15b9657dd0311344482f6664584d27f695bd2a61719a3e66c5d184dac0385"
+  },
+  {
+   "rank": 78,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:c5e091411e83cc0af9769945ee751836d92cbafaee5ecf52e81bb804c9df90b7"
+  },
+  {
+   "rank": 79,
+   "score": 0.9999987166885558,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:9a0447f167c91488c32262f35329db71c3c16de7b3c759098301f8139e29ba94"
+  },
+  {
+   "rank": 80,
+   "score": 0.9999987166885558,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:8c403eb863077f6281c434de6ef0f7a5fc0ac448aa422825f95bf0c26ea24167"
+  },
+  {
+   "rank": 81,
+   "score": 0.9999987166885558,
+   "signature": "traversal",
+   "request_sha256": "sha256:e454ea2f302c198fc04c83f46ba21acd08723ff1b842e078584d467f3375a77d"
+  },
+  {
+   "rank": 82,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:d19d9a401af6c34758dad6adab01d2a41d45288c62ce9b7f94f7e3752ad2fa5f"
+  },
+  {
+   "rank": 83,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:de3d27e287722b8257e410953a96f52f52a34b075a0daf4bacf0d564a2985190"
+  },
+  {
+   "rank": 84,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:9b09b73d03458bb20bea5c338a43a81a1b7ff75d76479a6c7617ced3d1004dcb"
+  },
+  {
+   "rank": 85,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:3f6cd9e20caf9cac113373a456361cc6c245ae524172ec66e5fa61b8dae065e5"
+  },
+  {
+   "rank": 86,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:fd732e7c5e2aa4aab851a08fccb24ce940cc4760bcd4d3053a829a635b6abca0"
+  },
+  {
+   "rank": 87,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:8826549f41f2c2b2807a82446c3aa9c00ce94c29bca523b29215bf0805025817"
+  },
+  {
+   "rank": 88,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:3de2448d1429b59730e2104f237f975578e658886a131dc6b1f5323a5f228ed2"
+  },
+  {
+   "rank": 89,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:17cec798ad2d9b4cf51576f1bc43b39ce45b298456e2173de3915d4275758a18"
+  },
+  {
+   "rank": 90,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:7fc89a28c07338f060fa69cad0ea04a07f1df2319abd353dd65536f944016edd"
+  },
+  {
+   "rank": 91,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:955546435c339c1337c85d90eaa155a33224724041ca3e45459e42cbdfaa06db"
+  },
+  {
+   "rank": 92,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:dcfac63de34b33c0a2c765725f8819e47a880306864a21ae29607c71c928c1b3"
+  },
+  {
+   "rank": 93,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:6329a311ad1e23e07a11ad552829ee7de0b15fe3d5a4e57889f06c1c71bc3731"
+  },
+  {
+   "rank": 94,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:4191ba4468794ac77d863e9e052c960bc9ce082079fe5b36af000301887812f9"
+  },
+  {
+   "rank": 95,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:8967ae0627922a7c1545b7fb8a7ad0f908273b3914388a7cea6c593e665c2489"
+  },
+  {
+   "rank": 96,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:114a23fb7a5b9107e15d4f13df7e48d69c7c634fb87576641626ba915006bac3"
+  },
+  {
+   "rank": 97,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c23cc863cbcf6fe3df70f6f83c4e58e54795a99df870b04cd1af99dc83d5ed83"
+  },
+  {
+   "rank": 98,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:6c3e4a394965f64bb8a28d933346caae5581b50ee61eaa1a3e15264a15875878"
+  },
+  {
+   "rank": 99,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:184d080ceecde3317cde5c13185ca5b127c328cc88203b1d1011f8c5d746c9df"
+  },
+  {
+   "rank": 100,
+   "score": 0.9999986212030393,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:8a00ccf96082c7b259c5bdf8c4cf5bc27ce7ba44a9054cee44a44f3ff7e263d2"
+  }
+ ],
+ "top_prior": [
+  {
+   "rank": 1,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:0df41b189b0fad226c6d92dbc0edbffbabc598dc415dcbeec263c436f3b2fb7c"
+  },
+  {
+   "rank": 2,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:e50f92403e7fc99e62392412e4afa7d5a34b5f2f1a58bea46e5251cfe334b3b1"
+  },
+  {
+   "rank": 3,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:22371f55b25fac88e706b5017ca7eac6e8e0d31756c623cbbdefcb32bf785a4e"
+  },
+  {
+   "rank": 4,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:40f0fd72165330dbf4f8e2a08f684cf1174cfef44305f02b52d896ad001bc1cb"
+  },
+  {
+   "rank": 5,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:4f32c71b04bee673f8cbfbf63e8f5393839b171a38fe03aaaf784028be225079"
+  },
+  {
+   "rank": 6,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:10935886f59a97085e34dd2b0ae7fa2c529737447c54e555bf6d0f125d36ecf0"
+  },
+  {
+   "rank": 7,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:104d4e431934408fe7072da9fb89bec6b61202d29daad25fdcc8fa1181119bf7"
+  },
+  {
+   "rank": 8,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:306a03c3ce146f7688b1a19c97d8ee7342e7243685decaad5b2f579b43fc9fb8"
+  },
+  {
+   "rank": 9,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:788ce77ca943b452cb6c50762a8f8c43176d0b8ffc7240102c231ec3682c64b1"
+  },
+  {
+   "rank": 10,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:d1493c37be1669af7dd753db5a1a2865ac5b36a5c5b691323b14e871bf993159"
+  },
+  {
+   "rank": 11,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:f16923843843c3346dcd5494c2d350ac79860ff695132812fe791a6dab9d2502"
+  },
+  {
+   "rank": 12,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:3a1150a3dbf8d73c460a757a1e2c08cf174815c9634aec984f111c56774c9708"
+  },
+  {
+   "rank": 13,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:625cc41aa4f94d32b1e24401c6461152a85160f8e9985d330b231bd8ec41d89f"
+  },
+  {
+   "rank": 14,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:4a9459204ccf54ea17a38701ee7042528441e766b728fa510fedec7cfdad0625"
+  },
+  {
+   "rank": 15,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1a7de90586932e0f6fdf757de2cdfdf20f4528212adbdab9fb7aeb9c5d71ba53"
+  },
+  {
+   "rank": 16,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1ebf879ac2f528e161c93ddd9683b906af26d0cc9faf3a1e8bdcda59d73cad1c"
+  },
+  {
+   "rank": 17,
+   "score": 0.9999999999999439,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:e5fe15f276582cc52841bafb6db32c87fe3eee53753adaa37c118178178cb28a"
+  },
+  {
+   "rank": 18,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:65d8479da77732cecd7cf9c5d3f8107c1fdc1b8a7be6a7cee58cd26b92bc110a"
+  },
+  {
+   "rank": 19,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c82ddb8ce89515779f22156cbd5f8ffa2fffab897869ccf4224ab8bd55f9f879"
+  },
+  {
+   "rank": 20,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:adb0b1dc53f09f206ec266824d3f9b972fa12feea75683c0d3ff433929ac3b8c"
+  },
+  {
+   "rank": 21,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:fc553a33404918c9025972967849c66c821b8bb46560f99cf6351ab8c4746dcb"
+  },
+  {
+   "rank": 22,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:61995ce925ac15d3a32aedca03cb3aaf3a9c85bf2a50fe6c05bfb37521f59651"
+  },
+  {
+   "rank": 23,
+   "score": 0.9999999999999439,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:0c92395f7030a8de98bc6e2bbdd4d36567cf16fa48afa0d98594870829c8ae75"
+  },
+  {
+   "rank": 24,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:71e56a11f2f74e2dd602adc804072a33ca495730c0e5a04994096f36af905377"
+  },
+  {
+   "rank": 25,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:a2d461918a6159adff7221e30b2afa601ee901dda2f11ec4441a32d29187743a"
+  },
+  {
+   "rank": 26,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:96cf2f9fa1356d0e655c710fcd639a8f724d5141e719705bcff072c3f0d10e76"
+  },
+  {
+   "rank": 27,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:734c9d295575115ae108fdd057517c61355f8d810ed6d5816b1484f0c984fffb"
+  },
+  {
+   "rank": 28,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:f1fef31c04582942a2d2b33c3095b38f95545393d51a162040ac6a5cfe1dd9f9"
+  },
+  {
+   "rank": 29,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:674744db45f2e457a83be48f810b8f9ca20f227357522678d7189afeda8dde7e"
+  },
+  {
+   "rank": 30,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:dbdb50d88ebf01ab2509c8df2490f0c2be6b180fdf53be42892984ca0aafe085"
+  },
+  {
+   "rank": 31,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:75633310b4fa84a2dfd5b2f309a916be232763979755c86602adf52c2b31b81e"
+  },
+  {
+   "rank": 32,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:d66b8bc49d84a096f12cb106ac454c3a9af28733f8fe5dd507fabaabc6a861a5"
+  },
+  {
+   "rank": 33,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:7538b63262d208ef4187e7845edfe21027ca4cf0518d89dd6db594a8b9092db5"
+  },
+  {
+   "rank": 34,
+   "score": 0.9999999999999439,
+   "signature": "",
+   "request_sha256": "sha256:f874df247900fe8b7ef51e87a33d695c8dba7c1e17bddc9141413451503466bd"
+  },
+  {
+   "rank": 35,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:ce19bfc57b6ab7cb26f5f5ccb7da6d77c882dc40b79b26b10027dddfdf2dcc42"
+  },
+  {
+   "rank": 36,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1ec5bf90de85d8a019295a8005cae4ff65815b899d565e69b2de0912caefd5b4"
+  },
+  {
+   "rank": 37,
+   "score": 0.9999999999999439,
+   "signature": "scanner_paths",
+   "request_sha256": "sha256:e3dee6c1345b15702b80b5ef00cfc9a702271d23f347bed357620842c63bdd65"
+  },
+  {
+   "rank": 38,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:330e9fc0dc8e9afb67274e9c3cbaba0a22d29edc1801e961de14ea5d73f9226a"
+  },
+  {
+   "rank": 39,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:13499a4e7aa4b2688acb5f10f78d0004866b0be08324141069bcdac08337c370"
+  },
+  {
+   "rank": 40,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:760048fa1d0aeded8bd750f9be6a5bced4043fb05414b054cbe36db776c2235c"
+  },
+  {
+   "rank": 41,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:e3d8e137cc37f23a29d7bb7179dbbf7edd4d74b3d271ae75347703fecbc46c3d"
+  },
+  {
+   "rank": 42,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:a129adac004f80f33442dd1409aff5d1d00822644d671997f5b65e3e6d18bc8a"
+  },
+  {
+   "rank": 43,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:6c6db96f22e01c7161e0d0cda9ac4579aad181f389ffca8575c62d7313bbfbe7"
+  },
+  {
+   "rank": 44,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:aa046c49e2a1dabdee540f82b2ba14a9795e1c414ea6cd83422dd513fab17aa6"
+  },
+  {
+   "rank": 45,
+   "score": 0.9999999999999439,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:022915c1577b9eb2f16a0a291777a8ff4d04687273bfdccb04318fd0f040e0b9"
+  },
+  {
+   "rank": 46,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:229b4d21897ce97bca7eac2bbed984064912397911dae4757cd34ac6788ed2b3"
+  },
+  {
+   "rank": 47,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:445be7eed8a76f9df90d0d89c6910d97acdcc3ec545a06cd1fbfbd14fef554a8"
+  },
+  {
+   "rank": 48,
+   "score": 0.9999999999999439,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:20a32c9932afbd01b1231f71ba865eb2021784f39144232789425211e0f17e0e"
+  },
+  {
+   "rank": 49,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:93b458667dbd1dee6eed8da0d90961c8e8b34624de393037c8e6d86b157d2f8d"
+  },
+  {
+   "rank": 50,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:0b72033170c97ba1f31c8c839a06227caec2591a926b6845c59bc629c7edec73"
+  },
+  {
+   "rank": 51,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:0181be558f0f1f12dbf60b03d33a9e61e4e3c7ec3b788a448eea99d34b27c18d"
+  },
+  {
+   "rank": 52,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1217d6040b81f7fd752c015ada5cdeac4ef7014422c451ec4ca06bd47ca8846f"
+  },
+  {
+   "rank": 53,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1a561093c7c771ce5e11d3a3cd7d026d933768f6e9b609d12f4fb121dfdfc222"
+  },
+  {
+   "rank": 54,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c6565e12ec1120708f1142b6d94f21b5f193f69ad704e08c855f9b0bf588e46f"
+  },
+  {
+   "rank": 55,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:494258abe4bf1cf2cbb453b3e3ed724662f434e8a6344daa7d2b2d212058e599"
+  },
+  {
+   "rank": 56,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:1f5d95748d055d35d126c19a6511c0133c8ebd3203056a068ba7c2b9b4e3681a"
+  },
+  {
+   "rank": 57,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:f6765c1e0921de03d21a5ccc8fe605adee755afeeee40ee85d18d8a3ef3ad04a"
+  },
+  {
+   "rank": 58,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:46ddb67688a8b4662561a33d8bf62b0f625714cfbfb94d0cfb76c24aa59b7d01"
+  },
+  {
+   "rank": 59,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:690f644c79982b0b7c069cb320e23d8ee15a8ec894f4be0ae03b818a89d1a2d0"
+  },
+  {
+   "rank": 60,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:7c08028ccd71a8bd6848615a1f23f738e5eb15eb29093203a55804080916e197"
+  },
+  {
+   "rank": 61,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:7a66ce71a027eaf81df3994fba35d90c74eb0092bd7d9a908a0955e64a8f003c"
+  },
+  {
+   "rank": 62,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:8dab23c2f31eeb08b7e0ed32137b32a4189783bd2ca77fd8506020e2d718cb80"
+  },
+  {
+   "rank": 63,
+   "score": 0.9999999999999439,
+   "signature": "sqli_time",
+   "request_sha256": "sha256:ff683f6f659be6c0286d9ee4340a9a7daac72c196c8daef06fb173d1e72f2984"
+  },
+  {
+   "rank": 64,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b81440086c33993ddd46c7a16c488d1222377c37fbc72c4b9d09c52db70dd7e9"
+  },
+  {
+   "rank": 65,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:dfb15b9657dd0311344482f6664584d27f695bd2a61719a3e66c5d184dac0385"
+  },
+  {
+   "rank": 66,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:3d02a5d4bcdfca8d31a061981635ca08fed931a0c139b4ea2f8879ac083418c3"
+  },
+  {
+   "rank": 67,
+   "score": 0.9999999999999439,
+   "signature": "traversal",
+   "request_sha256": "sha256:e454ea2f302c198fc04c83f46ba21acd08723ff1b842e078584d467f3375a77d"
+  },
+  {
+   "rank": 68,
+   "score": 0.9999999999999439,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b5d0a53871696aadc52160a7ca9b3e6afa7cb64272f6bc828d1a9ef2fef1e0cb"
+  },
+  {
+   "rank": 69,
+   "score": 0.9999999999999036,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:211c5f4c5c0c2f1b66839dbbc6dc911242631d17b4c80c40ec27f6e2222b87e8"
+  },
+  {
+   "rank": 70,
+   "score": 0.9999999999984839,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:9e5c5fc585fc9a682623074659ab70040e379ad0989c21fafad162bc975371eb"
+  },
+  {
+   "rank": 71,
+   "score": 0.9999999999984839,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c45d014261f5b3ef1a3b4dc232fa5f451782ebb19e3943723cdc888c7922bcbb"
+  },
+  {
+   "rank": 72,
+   "score": 0.9999999998616798,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:068f7cbbc9597e99593a2b8dbfbaffa84ab348f348ee90d19ef40a2d4bbe9350"
+  },
+  {
+   "rank": 73,
+   "score": 0.9999999995805496,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:415a5186a35095c0c5e2760f4da112f48fd3fc08d97f4e935fab927e23961c34"
+  },
+  {
+   "rank": 74,
+   "score": 0.9999999914527457,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:eb27f9e8ad71829e2de1a83da74d8471c5ac96a06f0896c9b947a78bd2f61248"
+  },
+  {
+   "rank": 75,
+   "score": 0.9999999753722364,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:c195a7c69b8ef4379e52842f6e6f5b3dde00042d61ab93d5d5e1840f7172e1a4"
+  },
+  {
+   "rank": 76,
+   "score": 0.9999999087895357,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:294968ddf6f067eec8c13baa6317ab36541300a5502678e38883596d06f613f0"
+  },
+  {
+   "rank": 77,
+   "score": 0.9999999036252667,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:3b4b51cb6f32cff13a2f888f1d86761afd1bc9491ba7932eef4962a9304a2cc1"
+  },
+  {
+   "rank": 78,
+   "score": 0.9999997919788329,
+   "signature": "",
+   "request_sha256": "sha256:d2fa8e5e1aa9105b6a01b0a2264d487c841be3d13ed4b2c51a832f3324d5f45d"
+  },
+  {
+   "rank": 79,
+   "score": 0.9999997919788329,
+   "signature": "",
+   "request_sha256": "sha256:d83749b01f1987344e0a534f74f74a5c9f72bb14b583d18c704a24bde28203e5"
+  },
+  {
+   "rank": 80,
+   "score": 0.9999997919788329,
+   "signature": "",
+   "request_sha256": "sha256:65fd1075f4e7e9209b32bd34cdc4ff00842e3710df3c4f32b0ec85edc9a906bd"
+  },
+  {
+   "rank": 81,
+   "score": 0.9999997919784421,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:243d6e8371897cef5a905e6679100a7db04e61ba6825972112b29b4efe446fcd"
+  },
+  {
+   "rank": 82,
+   "score": 0.9999997919512638,
+   "signature": "",
+   "request_sha256": "sha256:47a601305201872c6eef0878cc3e712cacece332273c14cd78ed967f7c367ea2"
+  },
+  {
+   "rank": 83,
+   "score": 0.9999997919501425,
+   "signature": "",
+   "request_sha256": "sha256:92bef9c18b924a67ae65c5ebe7f33041ccad6963b616b715fe27b9e82594ffc2"
+  },
+  {
+   "rank": 84,
+   "score": 0.999999790529067,
+   "signature": "",
+   "request_sha256": "sha256:0e8c0ad9c3065fa9ba86b987a7320aec8e10a8203a4ceb1235cdc95fc9df63e4"
+  },
+  {
+   "rank": 85,
+   "score": 0.9999997843797681,
+   "signature": "",
+   "request_sha256": "sha256:04ac4720fdf16f12202f657eb179d92ddd4fb87867163cef7049efc35a9c1b31"
+  },
+  {
+   "rank": 86,
+   "score": 0.9999997336650884,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:9e34e28b24cfa10dd8265ee3e8b6280cb410da108ab468e8f2edf8f5156ebf14"
+  },
+  {
+   "rank": 87,
+   "score": 0.9999995442615406,
+   "signature": "",
+   "request_sha256": "sha256:52f7ee1086f542239d82ac8b5ebd1de19c485bb06b5dca24ccf83f773688eeb6"
+  },
+  {
+   "rank": 88,
+   "score": 0.9999995442615406,
+   "signature": "",
+   "request_sha256": "sha256:65bee2b18e091fe0b56189b23bb2e9fbdb168baadfd476490b9c9b1e10cfd9b6"
+  },
+  {
+   "rank": 89,
+   "score": 0.9999994877882381,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:cad0679c58912fe30d8ec540daf2a6ae7da8c544c51c77258ac6002750aee070"
+  },
+  {
+   "rank": 90,
+   "score": 0.9999994877882381,
+   "signature": "sqli_union",
+   "request_sha256": "sha256:b2058ceca2a205a13d17038b90d84139e95c20e2b72e2e8647d6bfba0b376e24"
+  },
+  {
+   "rank": 91,
+   "score": 0.9999993241820482,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:c7708fd1c9218a67f9d057f08c60239af858eba2303ec455e31782b914477a4a"
+  },
+  {
+   "rank": 92,
+   "score": 0.9999993241820482,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:eec57a601dee5d2e372e937dec38bc3e21152ea78217d26c67c8401095922857"
+  },
+  {
+   "rank": 93,
+   "score": 0.9999993241537486,
+   "signature": "",
+   "request_sha256": "sha256:33722ae65dcc5da959feaeda5e17ea56cebf5f2a86d57188fef6d2edf9737a0d"
+  },
+  {
+   "rank": 94,
+   "score": 0.9999993241503742,
+   "signature": "",
+   "request_sha256": "sha256:79b091a04e979157e811b65dedd00d690228285d70ec39db26f63398115a4030"
+  },
+  {
+   "rank": 95,
+   "score": 0.9999993241503742,
+   "signature": "",
+   "request_sha256": "sha256:429ed939601e8008505351eb4196f52061ab037a254bd3de6aa9de5275907c88"
+  },
+  {
+   "rank": 96,
+   "score": 0.9999993241503742,
+   "signature": "",
+   "request_sha256": "sha256:b9b10c8d6c9cf1689f93d445c91a4d6da2ae5899ac7e9aaae3d19309905b372d"
+  },
+  {
+   "rank": 97,
+   "score": 0.9999993227326731,
+   "signature": "",
+   "request_sha256": "sha256:b2ea76dd15cd08d977a2e34b62d7f56a576953be36d3759ef584458ac5458b26"
+  },
+  {
+   "rank": 98,
+   "score": 0.9999993201004493,
+   "signature": "",
+   "request_sha256": "sha256:56e20b7535fa8065727375b3320dd2a5b75739b2106ba770830760722258dbf6"
+  },
+  {
+   "rank": 99,
+   "score": 0.9999993201004493,
+   "signature": "",
+   "request_sha256": "sha256:6e286b681195eec97b83f36586737eeaf4b72c838d079eaa288c366d9f032948"
+  },
+  {
+   "rank": 100,
+   "score": 0.9999991773887138,
+   "signature": "sqli_boolean_tautology",
+   "request_sha256": "sha256:5f706be993ba99d4c43b5921745bbc8aba534c3b66670c54388bd7ca5b08ecf8"
+  }
+ ],
+ "top_carta_requests_sha256": [
+  "sha256:94411a7779d352deea4a646806602c3221be0c76358fa2ef9ed4f72e169aff3d",
+  "sha256:243c919297686480af1d9885321254eaccdedd7ee86b0952adb5f726adbcabba",
+  "sha256:123652d905fa2f121016627e2059a412d678d7caff7f373027dfd44ab3e41b04",
+  "sha256:e5fe15f276582cc52841bafb6db32c87fe3eee53753adaa37c118178178cb28a",
+  "sha256:0c92395f7030a8de98bc6e2bbdd4d36567cf16fa48afa0d98594870829c8ae75",
+  "sha256:5397f8880f5937321a4961497618b92b850c77857563bd78a288585233bd09a5",
+  "sha256:e20a25cd96722c2ede2b8f410e58bd999ebc50442fdb4eb0ef9cea163018c09c",
+  "sha256:06cd7351fb4b71072e5012b032abe40d4bcc374ef21ee549143778601ad6e407",
+  "sha256:cad0679c58912fe30d8ec540daf2a6ae7da8c544c51c77258ac6002750aee070",
+  "sha256:6f0cdda876440ada1e396962d558e584aa75ea94a38b6a1862a8709f13448c70",
+  "sha256:b79fb53bca3b4d479b26c510bbd600dff70d0cd59dd3d33cf90f7ac5a202edbb",
+  "sha256:a83ed426f1be8568c3cff2d02608bab2dc489a03cd730cacb17fa072523cce23",
+  "sha256:b2058ceca2a205a13d17038b90d84139e95c20e2b72e2e8647d6bfba0b376e24",
+  "sha256:415a5186a35095c0c5e2760f4da112f48fd3fc08d97f4e935fab927e23961c34",
+  "sha256:c195a7c69b8ef4379e52842f6e6f5b3dde00042d61ab93d5d5e1840f7172e1a4",
+  "sha256:91336d8f1a4ebd08edeb42841ac5ba77fd2007e33cd500229d8abf6be7cd70d6",
+  "sha256:ff683f6f659be6c0286d9ee4340a9a7daac72c196c8daef06fb173d1e72f2984",
+  "sha256:19bbaf1415170b93c9e7d9d5fb03ca5aa0418225e099dd1640fe4d725032667a",
+  "sha256:c3d3339fc594566a3aa826441b2621aee4abdb65a7409fb234f6d496d73af2ab",
+  "sha256:7783a8f982039a199cb277b47b3f1d93822501d857faab975b1f10034fb57c69",
+  "sha256:0bd4c9ccb98527282f04e36a0c8972dbf3203525162ecbe390fd28b92d624647",
+  "sha256:774891475558ee5e7caa6ed46598718aa9e438a34f40c5a821d113292a27ebda",
+  "sha256:73c5cb8295f97d069dc002c822fe980ee2ec02b99a0a4a5ce7a554c2e21f0d94",
+  "sha256:30c7bd53da87ca5fa87809ac4456332f1c8fbc7b251c6edef99330f878c54a49",
+  "sha256:007ea635a05411af00575a966e2be370465749efed323378e2b1535b9ffbc665"
+ ],
+ "note": "Raw request strings of the Access Log dataset are replaced by SHA-256 hashes of the exact strings; run site_shift.py on the downloaded dataset to see them."
+}

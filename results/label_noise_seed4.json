@@ -1,0 +1,78 @@
+{
+ "seed": 4,
+ "n_test_relabelled": 2,
+ "relabelled_requests": [
+  "GET /administrator/admin/index.php?lang=en",
+  "GET /administrator/index.php?"
+ ],
+ "carta": {
+  "original": {
+   "roc_auc": 0.9996086279306413,
+   "pr_auc": 0.9995791300911824,
+   "recall@fpr0.001": 0.9945342205323194,
+   "recall@fpr0.01": 0.9988117870722434,
+   "mondrian_low_fpr": 0.044563918757467146,
+   "mondrian_medium_fpr": 0.011230585424133811,
+   "mondrian_high_fpr": 0.0016726403823178017,
+   "mondrian_critical_fpr": 0.00011947431302270011,
+   "global_low_fpr": 0.04420549581839905,
+   "global_medium_fpr": 0.01063321385902031,
+   "global_high_fpr": 0.0027479091995221026,
+   "global_critical_fpr": 0.00011947431302270011
+  },
+  "corrected": {
+   "roc_auc": 0.9996224305464091,
+   "pr_auc": 0.9996204095838797,
+   "recall@fpr0.001": 0.9954869358669833,
+   "recall@fpr0.01": 0.9985748218527316,
+   "mondrian_low_fpr": 0.04445506692160612,
+   "mondrian_medium_fpr": 0.01111376673040153,
+   "mondrian_high_fpr": 0.0015535372848948376,
+   "mondrian_critical_fpr": 0.0,
+   "global_low_fpr": 0.044096558317399615,
+   "global_medium_fpr": 0.010516252390057362,
+   "global_high_fpr": 0.0026290630975143404,
+   "global_critical_fpr": 0.0
+  }
+ },
+ "prior": {
+  "original": {
+   "roc_auc": 0.9979691354239065,
+   "pr_auc": 0.996528405700957,
+   "recall@fpr0.001": 0.8571768060836502,
+   "recall@fpr0.01": 0.9505703422053232,
+   "mondrian_low_fpr": 0.05029868578255675,
+   "mondrian_medium_fpr": 0.009199522102747909,
+   "mondrian_high_fpr": 0.002031063321385902,
+   "mondrian_critical_fpr": 0.00011947431302270011,
+   "global_low_fpr": 0.04946236559139785,
+   "global_medium_fpr": 0.009199522102747909,
+   "global_high_fpr": 0.0015531660692951015,
+   "global_critical_fpr": 0.00023894862604540023
+  },
+  "corrected": {
+   "roc_auc": 0.9977820154144507,
+   "pr_auc": 0.9963632721680971,
+   "recall@fpr0.001": 0.856769596199525,
+   "recall@fpr0.01": 0.9501187648456056,
+   "mondrian_low_fpr": 0.050310707456978965,
+   "mondrian_medium_fpr": 0.009201720841300191,
+   "mondrian_high_fpr": 0.0020315487571701723,
+   "mondrian_critical_fpr": 0.00011950286806883365,
+   "global_low_fpr": 0.04947418738049713,
+   "global_medium_fpr": 0.009201720841300191,
+   "global_high_fpr": 0.0015535372848948376,
+   "global_critical_fpr": 0.0002390057361376673
+  }
+ },
+ "weblogs_only": {
+  "carta": {
+   "original": 0.9710144927536232,
+   "corrected": 0.9577464788732394
+  },
+  "prior": {
+   "original": 0.855072463768116,
+   "corrected": 0.8309859154929577
+  }
+ }
+}

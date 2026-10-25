@@ -1,0 +1,80 @@
+{
+ "seed": 1,
+ "n_test_relabelled": 4,
+ "relabelled_requests": [
+  "GET /PMA2017/index.php?lang=en",
+  "GET /image/{{basketItem.id}}?type=productModel');WAITFOR DELAY '0:0:5'--&wh=50x50",
+  "GET /image/{{basketItem.id}}?type=productModel%';WAITFOR DELAY '0:0:5'--&wh=50x50",
+  "GET /image/{{basketItem.id}}?type=productModel&wh=50x50 AND SLEEP(5)-- nBOH"
+ ],
+ "carta": {
+  "original": {
+   "roc_auc": 0.9998022342377948,
+   "pr_auc": 0.9996936645996616,
+   "recall@fpr0.001": 0.9888307984790875,
+   "recall@fpr0.01": 0.999287072243346,
+   "mondrian_low_fpr": 0.04910394265232975,
+   "mondrian_medium_fpr": 0.01039426523297491,
+   "mondrian_high_fpr": 0.002867383512544803,
+   "mondrian_critical_fpr": 0.0007168458781362007,
+   "global_low_fpr": 0.04958183990442055,
+   "global_medium_fpr": 0.012783751493428913,
+   "global_high_fpr": 0.0025089605734767025,
+   "global_critical_fpr": 0.001075268817204301
+  },
+  "corrected": {
+   "roc_auc": 0.9997023491276023,
+   "pr_auc": 0.9996384339179121,
+   "recall@fpr0.001": 0.9943019943019943,
+   "recall@fpr0.01": 0.9990503323836657,
+   "mondrian_low_fpr": 0.04876882620129094,
+   "mondrian_medium_fpr": 0.010040640688501076,
+   "mondrian_high_fpr": 0.002510160172125269,
+   "mondrian_critical_fpr": 0.00035859431030360985,
+   "global_low_fpr": 0.04924695194836242,
+   "global_medium_fpr": 0.012431269423858474,
+   "global_high_fpr": 0.002151565861821659,
+   "global_critical_fpr": 0.0007171886206072197
+  }
+ },
+ "prior": {
+  "original": {
+   "roc_auc": 0.9976580422566563,
+   "pr_auc": 0.9948027997262373,
+   "recall@fpr0.001": 0.8334125475285171,
+   "recall@fpr0.01": 0.9524714828897338,
+   "mondrian_low_fpr": 0.05173237753882915,
+   "mondrian_medium_fpr": 0.012305854241338112,
+   "mondrian_high_fpr": 0.0023894862604540022,
+   "mondrian_critical_fpr": 0.0007168458781362007,
+   "global_low_fpr": 0.05173237753882915,
+   "global_medium_fpr": 0.013859020310633213,
+   "global_high_fpr": 0.0019115890083632018,
+   "global_critical_fpr": 0.0007168458781362007
+  },
+  "corrected": {
+   "roc_auc": 0.9978061781293114,
+   "pr_auc": 0.9964568470535992,
+   "recall@fpr0.001": 0.8563627730294397,
+   "recall@fpr0.01": 0.9529914529914529,
+   "mondrian_low_fpr": 0.05139851781018408,
+   "mondrian_medium_fpr": 0.011953143676786996,
+   "mondrian_high_fpr": 0.0020320344250537893,
+   "mondrian_critical_fpr": 0.00035859431030360985,
+   "global_low_fpr": 0.05139851781018408,
+   "global_medium_fpr": 0.013507052354769305,
+   "global_high_fpr": 0.0015539086779823093,
+   "global_critical_fpr": 0.00035859431030360985
+  }
+ },
+ "weblogs_only": {
+  "carta": {
+   "original": 0.9565217391304348,
+   "corrected": 0.9452054794520548
+  },
+  "prior": {
+   "original": 0.8695652173913043,
+   "corrected": 0.863013698630137
+  }
+ }
+}

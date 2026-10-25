@@ -1,0 +1,44 @@
+{
+ "seed": 0,
+ "benchmark_rows_with_versioned_comment": {
+  "benign": 0,
+  "attack": 0
+ },
+ "sqli_test_attacks": 1696,
+ "sqli_attacks_rewritten": 1685,
+ "recall_at_val_1pct_fpr_threshold": {
+  "clean": {
+   "carta_recall": 1.0,
+   "prior_recall": 0.9846698113207547,
+   "carta_recall_val_0.1pct": 1.0,
+   "prior_recall_val_0.1pct": 0.9498820754716981,
+   "carta_recall_on_changed": 1.0,
+   "prior_recall_on_changed": 0.9845697329376855
+  },
+  "versioned_comments": {
+   "carta_recall": 1.0,
+   "prior_recall": 0.9988207547169812,
+   "carta_recall_val_0.1pct": 0.9994103773584906,
+   "prior_recall_val_0.1pct": 0.9864386792452831,
+   "carta_recall_on_changed": 1.0,
+   "prior_recall_on_changed": 0.998813056379822
+  }
+ },
+ "examples": [
+  {
+   "before": "PARAM ? 1' where 6406=6406;select count(*) from rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4--",
+   "after": "PARAM ? 1' /*!where*/ 6406=6406;/*!select*/ count(*) /*!from*/ rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4--",
+   "carta_text_after": "PARAM | path= | body=1' 6406=6406; count(*) rdb$fields as t1,rdb$types as t2,rdb$collations as t3,rdb$functions as t4--"
+  },
+  {
+   "before": "PARAM ? 1) where 7956=7956 or sleep(5)#",
+   "after": "PARAM ? 1) /*!where*/ 7956=7956 /*!or*/ /*!sleep*/(5)#",
+   "carta_text_after": "PARAM | path= | body=1) 7956=7956 (5)#"
+  },
+  {
+   "before": "PARAM ? 1')) as gfzb where 7904=7904;begin dbms_lock.sleep(5); end--",
+   "after": "PARAM ? 1')) as gfzb /*!where*/ 7904=7904;begin dbms_lock./*!sleep*/(5); end--",
+   "carta_text_after": "PARAM | path= | body=1')) as gfzb 7904=7904;begin dbms_lock. (5); end--"
+  }
+ ]
+}

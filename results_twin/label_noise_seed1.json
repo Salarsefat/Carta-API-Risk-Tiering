@@ -1,0 +1,78 @@
+{
+ "seed": 1,
+ "n_test_relabelled": 2,
+ "relabelled_requests": [
+  "GET /image/{{basketItem.id}}?type=productModel%';SELECT SLEEP(5)",
+  "GET /image/{{basketItem.id}}?type=productModel');WAITFOR DELAY '0:0:5'--&wh=50x50"
+ ],
+ "carta": {
+  "original": {
+   "roc_auc": 0.9997157642055602,
+   "pr_auc": 0.9994478448806554,
+   "recall@fpr0.001": 0.9914285714285714,
+   "recall@fpr0.01": 0.9955555555555555,
+   "mondrian_low_fpr": 0.04709576138147567,
+   "mondrian_medium_fpr": 0.009549973835688121,
+   "mondrian_high_fpr": 0.0026164311878597592,
+   "mondrian_critical_fpr": 0.0003924646781789639,
+   "global_low_fpr": 0.052328623757195186,
+   "global_medium_fpr": 0.008634222919937205,
+   "global_high_fpr": 0.0022239665096807954,
+   "global_critical_fpr": 0.0003924646781789639
+  },
+  "corrected": {
+   "roc_auc": 0.9997454290143835,
+   "pr_auc": 0.9995271464916643,
+   "recall@fpr0.001": 0.991751269035533,
+   "recall@fpr0.01": 0.9958756345177665,
+   "mondrian_low_fpr": 0.04684637529442554,
+   "mondrian_medium_fpr": 0.009290761580738027,
+   "mondrian_high_fpr": 0.0023554043444124575,
+   "mondrian_critical_fpr": 0.00013085579691180318,
+   "global_low_fpr": 0.05208060717089767,
+   "global_medium_fpr": 0.008374771002355404,
+   "global_high_fpr": 0.001962836953677048,
+   "global_critical_fpr": 0.00013085579691180318
+  }
+ },
+ "prior": {
+  "original": {
+   "roc_auc": 0.9973125098635303,
+   "pr_auc": 0.9937543590335993,
+   "recall@fpr0.001": 0.8304761904761905,
+   "recall@fpr0.01": 0.9349206349206349,
+   "mondrian_low_fpr": 0.05075876504447933,
+   "mondrian_medium_fpr": 0.010858189429618002,
+   "mondrian_high_fpr": 0.003401360544217687,
+   "mondrian_critical_fpr": 0.0013082155939298796,
+   "global_low_fpr": 0.04958137100994244,
+   "global_medium_fpr": 0.009157509157509158,
+   "global_high_fpr": 0.0026164311878597592,
+   "global_critical_fpr": 0.0013082155939298796
+  },
+  "corrected": {
+   "roc_auc": 0.9975183480418792,
+   "pr_auc": 0.9947685234810758,
+   "recall@fpr0.001": 0.8404187817258884,
+   "recall@fpr0.01": 0.9359137055837563,
+   "mondrian_low_fpr": 0.050510337607956035,
+   "mondrian_medium_fpr": 0.01059931954985606,
+   "mondrian_high_fpr": 0.003140539125883277,
+   "mondrian_critical_fpr": 0.0010468463752944255,
+   "global_low_fpr": 0.049332635435749804,
+   "global_medium_fpr": 0.008898194190002618,
+   "global_high_fpr": 0.0023554043444124575,
+   "global_critical_fpr": 0.0010468463752944255
+  }
+ },
+ "weblogs_only": {
+  "carta": {
+   "original": 0.9428571428571428,
+   "corrected": 0.9583333333333334
+  },
+  "prior": {
+   "original": 0.8714285714285714,
+   "corrected": 0.875
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "seed": 2,
+ "n_test_relabelled": 4,
+ "relabelled_requests": [
+  "GET /phpmyadmin2/index.php?lang=en",
+  "GET /administrator/admin/index.php?lang=en",
+  "GET /image/{{basketItem.id}}?type=productModel');WAITFOR DELAY '0:0:5'--&wh=50x50",
+  "GET /image/{{basketItem.id}}?type=productModel&wh=50x50%' AND 4523=4523 AND '%'='"
+ ],
+ "carta": {
+  "original": {
+   "roc_auc": 0.9999378495077931,
+   "pr_auc": 0.9998731734541161,
+   "recall@fpr0.001": 0.997861216730038,
+   "recall@fpr0.01": 0.999287072243346,
+   "mondrian_low_fpr": 0.043249701314217445,
+   "mondrian_medium_fpr": 0.00991636798088411,
+   "mondrian_high_fpr": 0.0025089605734767025,
+   "mondrian_critical_fpr": 0.0005973715651135006,
+   "global_low_fpr": 0.05137395459976105,
+   "global_medium_fpr": 0.01015531660692951,
+   "global_high_fpr": 0.002150537634408602,
+   "global_critical_fpr": 0.00047789725209080046
+  },
+  "corrected": {
+   "roc_auc": 0.9999057256806878,
+   "pr_auc": 0.9998418491380985,
+   "recall@fpr0.001": 0.9978632478632479,
+   "recall@fpr0.01": 0.9988129154795822,
+   "mondrian_low_fpr": 0.043031317236433185,
+   "mondrian_medium_fpr": 0.009682046378197466,
+   "mondrian_high_fpr": 0.002271097298589529,
+   "mondrian_critical_fpr": 0.00035859431030360985,
+   "global_low_fpr": 0.051159454936648335,
+   "global_medium_fpr": 0.009921109251733206,
+   "global_high_fpr": 0.0019125029882859192,
+   "global_critical_fpr": 0.0002390628735357399
+  }
+ },
+ "prior": {
+  "original": {
+   "roc_auc": 0.9970802187106768,
+   "pr_auc": 0.9944056991208284,
+   "recall@fpr0.001": 0.7984790874524715,
+   "recall@fpr0.01": 0.9355988593155894,
+   "mondrian_low_fpr": 0.05101553166069295,
+   "mondrian_medium_fpr": 0.010513739545997611,
+   "mondrian_high_fpr": 0.002150537634408602,
+   "mondrian_critical_fpr": 0.0008363201911589009,
+   "global_low_fpr": 0.048506571087216246,
+   "global_medium_fpr": 0.010752688172043012,
+   "global_high_fpr": 0.0025089605734767025,
+   "global_critical_fpr": 0.0007168458781362007
+  },
+  "corrected": {
+   "roc_auc": 0.996926166237466,
+   "pr_auc": 0.9948566671557497,
+   "recall@fpr0.001": 0.8157644824311491,
+   "recall@fpr0.01": 0.9354226020892688,
+   "mondrian_low_fpr": 0.05080086062634473,
+   "mondrian_medium_fpr": 0.010279703562036816,
+   "mondrian_high_fpr": 0.0019125029882859192,
+   "mondrian_critical_fpr": 0.0005976571838393497,
+   "global_low_fpr": 0.04829070045421946,
+   "global_medium_fpr": 0.010518766435572556,
+   "global_high_fpr": 0.002271097298589529,
+   "global_critical_fpr": 0.0004781257470714798
+  }
+ },
+ "weblogs_only": {
+  "carta": {
+   "original": 0.9710144927536232,
+   "corrected": 0.9452054794520548
+  },
+  "prior": {
+   "original": 0.8695652173913043,
+   "corrected": 0.8493150684931506
+  }
+ }
+}

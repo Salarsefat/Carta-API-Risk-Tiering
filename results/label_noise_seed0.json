@@ -1,0 +1,82 @@
+{
+ "seed": 0,
+ "n_test_relabelled": 6,
+ "relabelled_requests": [
+  "GET /phpmyadmin2/index.php?lang=en",
+  "GET /image/{{basketItem.id}}?type=productModel' AND 1123=1123 AND 'ecfU'='ecfU&wh=50x50",
+  "GET /image/{{basketItem.id}}?type=productModel%';SELECT SLEEP(5)",
+  "GET /image/{{basketItem.id}}?type=productModel%';WAITFOR DELAY '0:0:5'--&wh=50x50",
+  "GET /administrator/index.php?",
+  "GET /phpMyAdmin/phpMyAdmin/index.php?"
+ ],
+ "carta": {
+  "original": {
+   "roc_auc": 0.9998043920438284,
+   "pr_auc": 0.9995638159139071,
+   "recall@fpr0.001": 0.9933460076045627,
+   "recall@fpr0.01": 0.9988117870722434,
+   "mondrian_low_fpr": 0.03990442054958184,
+   "mondrian_medium_fpr": 0.01027479091995221,
+   "mondrian_high_fpr": 0.003106332138590203,
+   "mondrian_critical_fpr": 0.0014336917562724014,
+   "global_low_fpr": 0.05316606929510155,
+   "global_medium_fpr": 0.009557945041816009,
+   "global_high_fpr": 0.0027479091995221026,
+   "global_critical_fpr": 0.002031063321385902
+  },
+  "corrected": {
+   "roc_auc": 0.999873006491309,
+   "pr_auc": 0.9998087249916033,
+   "recall@fpr0.001": 0.9950166112956811,
+   "recall@fpr0.01": 0.9985761746559089,
+   "mondrian_low_fpr": 0.03933524629363941,
+   "mondrian_medium_fpr": 0.009684361549497847,
+   "mondrian_high_fpr": 0.002510760401721664,
+   "mondrian_critical_fpr": 0.0008369201339072215,
+   "global_low_fpr": 0.052606408417025345,
+   "global_medium_fpr": 0.008967001434720229,
+   "global_high_fpr": 0.002152080344332855,
+   "global_critical_fpr": 0.0014347202295552368
+  }
+ },
+ "prior": {
+  "original": {
+   "roc_auc": 0.9978980697857185,
+   "pr_auc": 0.9953425648739835,
+   "recall@fpr0.001": 0.8324619771863118,
+   "recall@fpr0.01": 0.965541825095057,
+   "mondrian_low_fpr": 0.04790919952210275,
+   "mondrian_medium_fpr": 0.009557945041816009,
+   "mondrian_high_fpr": 0.0023894862604540022,
+   "mondrian_critical_fpr": 0.0011947431302270011,
+   "global_low_fpr": 0.04922341696535245,
+   "global_medium_fpr": 0.00908004778972521,
+   "global_high_fpr": 0.0023894862604540022,
+   "global_critical_fpr": 0.0008363201911589009
+  },
+  "corrected": {
+   "roc_auc": 0.9979331210646482,
+   "pr_auc": 0.9966342115968287,
+   "recall@fpr0.001": 0.8580920740389179,
+   "recall@fpr0.01": 0.9651162790697675,
+   "mondrian_low_fpr": 0.04758488761358202,
+   "mondrian_medium_fpr": 0.009206121472979436,
+   "mondrian_high_fpr": 0.0020325203252032522,
+   "mondrian_critical_fpr": 0.0008369201339072215,
+   "global_low_fpr": 0.04878048780487805,
+   "global_medium_fpr": 0.008727881396461024,
+   "global_high_fpr": 0.0020325203252032522,
+   "global_critical_fpr": 0.00047824007651841227
+  }
+ },
+ "weblogs_only": {
+  "carta": {
+   "original": 0.927536231884058,
+   "corrected": 0.92
+  },
+  "prior": {
+   "original": 0.8405797101449275,
+   "corrected": 0.8133333333333334
+  }
+ }
+}

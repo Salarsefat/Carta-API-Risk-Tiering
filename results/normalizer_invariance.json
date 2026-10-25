@@ -1,0 +1,45 @@
+{
+ "n_values": 30000,
+ "by_source": {
+  "csic2010": 25673,
+  "httpparams": 4327
+ },
+ "kmax": 4,
+ "fixpoint": {
+  "k=1": {
+   "equal": 30000,
+   "fraction": 1.0
+  },
+  "k=2": {
+   "equal": 30000,
+   "fraction": 1.0
+  },
+  "k=3": {
+   "equal": 30000,
+   "fraction": 1.0
+  },
+  "k=4": {
+   "equal": 30000,
+   "fraction": 1.0
+  }
+ },
+ "single_pass": {
+  "k=1": {
+   "equal": 19749,
+   "fraction": 0.6583
+  },
+  "k=2": {
+   "equal": 19749,
+   "fraction": 0.6583
+  },
+  "k=3": {
+   "equal": 19749,
+   "fraction": 0.6583
+  },
+  "k=4": {
+   "equal": 19749,
+   "fraction": 0.6583
+  }
+ },
+ "fixpoint_counterexamples": []
+}
