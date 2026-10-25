@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "CARTA: calibrated, context-aware risk tiering for cloud API attack detection"
+type: software
+authors:
+  - family-names: Sefati
+    given-names: Seyed Salar
+    orcid: "https://orcid.org/0000-0002-7208-3576"
+    affiliation: "National University of Science and Technology POLITEHNICA Bucharest"
+repository-code: "https://github.com/Salarsefat/carta-api-risk-tiering"
+license: MIT
+version: "1.0.0"
+keywords:
+  - API security
+  - web attack detection
+  - conformal prediction
+  - probability calibration
+  - data leakage
+  - stacked generalisation
+preferred-citation:
+  type: unpublished
+  title: "Calibrated and Context-Aware Risk Tiering for Cloud API Attack Detection Based on Stacked Learning and Mondrian Conformal Prediction"
+  authors:
+    - family-names: Sefati
+      given-names: Seyed Salar
+      orcid: "https://orcid.org/0000-0002-7208-3576"
+    - family-names: Vlahov
+      given-names: Atanas
+    - family-names: Craciunescu
+      given-names: Razvan
+    - family-names: Arasteh
+      given-names: Bahman
+    - family-names: Poulkov
+      given-names: Vladimir
+  year: 2026
+  notes: "Manuscript"
